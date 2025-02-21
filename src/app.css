@@ -1,0 +1,46 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --white: #ffffff;
+  --light-grey: #f4f4f4;
+  --medium-grey: #d4d4d4;
+  --dark-grey: #727272;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+
+button {
+  height: 40px;
+  width: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--white);
+  border: none;
+
+  img {
+    height: 30px;
+    width: 30px;
+  }
+
+  &:hover,
+  &.activeButton {
+    background-color: var(--light-grey);
+    cursor: pointer;
+  }
+}
+
+.flexRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
