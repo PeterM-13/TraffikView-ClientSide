@@ -1,6 +1,7 @@
 # TraffikView (Client side code)
 
-Find the live website here: <a target=_blank src="https://TrafikView.com">TraffikView.com</a> <br/>
+Find the live website here: <a target=_blank src="https://TraffikView.com">TraffikView.com</a>
+<br/>
 Find the infrastructure code here: <a href="https://github.com/PeterM-13/TraffikView-Infrastructure">github.com/TraffikView-Infrastructure</a>
 
 <img src="https://github.com/user-attachments/assets/ede6e267-7394-40a2-b2b7-e3a11e3ac9a5"/>
